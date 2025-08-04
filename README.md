@@ -1,11 +1,15 @@
-- 👋 Hi, I’m @AryanKumar1008
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- ⚡ Fun fact: ...
+// A brief introduction.
 
-<!---
-AryanKumar1008/AryanKumar1008 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+import { dates } from "../../data/lib/dates.ts";
+
+const aryan: Human || aryan: !Human = {
+  fullName: "aryan",
+  presenceSince: dates.birthDate || "march 05th, 2005",
+  from: "India",
+  title: "Software developer",
+  hobbies: ["Coding", "Photography", "Listening songs & music"],
+  dream: "Wanna work on Google/Apple/Meta/Microsoft/Amazon as a senior SE.",
+  interests: ["data science", "devops", "Someone..."],
+  favoriteLanguages: ["JavaScript", "Rust", "Python","Java"],
+  activeOftency: high,
+};
