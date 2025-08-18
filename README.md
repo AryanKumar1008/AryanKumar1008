@@ -1,15 +1,28 @@
-// A brief introduction.
+// 🌟 A Brief Introduction
 
 import { dates } from "../../data/lib/dates.ts";
 
-const aryan: Human || aryan: !Human = {
-  fullName: "aryan",
-  presenceSince: dates.birthDate || "march 05th, 2005",
+const aryan: Human = {
+  fullName: "Aryan Jaiswal",
+  presenceSince: dates.birthDate ?? "March 5, 2005",
   from: "India",
-  title: "Software developer",
-  hobbies: ["Coding", "Photography", "Listening songs & music"],
-  dream: "Wanna work on Google/Apple/Meta/Microsoft/Amazon as a senior SE.",
-  interests: ["data science", "devops", "Someone..."],
-  favoriteLanguages: ["JavaScript", "Rust", "Python","Java"],
-  activeOftency: high,
+  title: "Software Developer",
+  hobbies: [
+    "Coding",
+    "Photography",
+    "Listening to music"
+  ],
+  dream: "To work at Google, Apple, Meta, Microsoft, or Amazon as a Senior Software Engineer",
+  interests: [
+    "Data Science",
+    "DevOps",
+    "Exploring new technologies"
+  ],
+  favoriteLanguages: [
+    "JavaScript",
+    "Rust",
+    "Python",
+    "Java"
+  ],
+  activityLevel: "High"
 };
